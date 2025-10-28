@@ -1,17 +1,63 @@
-# safety_for_woman
+Safety for Women
 
-A new Flutter project.
+Safety for Women is a Flutter mobile application designed to enhance personal safety by triggering emergency alerts when the phone is shaken.
+It provides a quick, hands-free way to notify selected contacts or authorities during unsafe situations.
 
-## Getting Started
+🧭 Features
 
-This project is a starting point for a Flutter application.
+📱 Shake Detection – Sends an emergency alert when the device is shaken.
 
-A few resources to get you started if this is your first Flutter project:
+📍 Real-time Location Sharing – Automatically shares your live location with selected contacts.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📨 Emergency Message – Sends a pre-set SMS or notification to trusted contacts.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# safety_for_women
+🧩 Simple & Lightweight – Built with Flutter for smooth performance and a clean interface.
+
+🔐 Privacy Focused – User data and contacts are kept secure locally.
+
+⚙️ Getting Started
+
+This project is built with Flutter.
+
+Prerequisites
+
+Flutter SDK
+ installed
+
+Android Studio or VS Code
+
+A physical or virtual Android device
+
+Clone and Run
+git clone https://github.com/your-username/safety_for_woman.git
+cd safety_for_woman
+flutter pub get
+flutter run
+
+🧪 How It Works
+
+Open the app and set your emergency contacts.
+
+Allow location and SMS permissions.
+
+When you shake the phone, the app automatically:
+
+Detects the motion
+
+Sends an alert message
+
+Shares your GPS location with your emergency contacts
+
+📸 Screenshots (optional)
+
+Add screenshots of your app interface here for better presentation.
+
+🛠️ Built With
+
+Flutter – UI framework
+
+Dart – Programming language
+
+Google Maps / Location – For live location tracking
+
+Shake Detector Plugin – For motion detection
